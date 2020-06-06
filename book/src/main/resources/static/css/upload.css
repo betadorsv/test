@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+body {
+    box-sizing: border-box;
+    background-color: #111111;
+    margin: 0;
+    padding: 0;
+}
+
+li,
+a,
+button {
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0f1;
+    text-decoration: none;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 70px;
+    background-color: black;
+}
+
+.box-search {
+    list-style: none;
+}
+
+.box-search li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.btn-login button {
+    padding: 5px 20px;
+    background-color: #09b7fc;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: all 0.3s ease 0s;
+}
+.btn-upload button{
+    color: black;
+    padding: 5px 10px;
+    border: none;
+    background-color: #ffcc00;
+    border-radius: 15px;
+    font-size: 20px;
+    transition: all 0.3s ease 0s;
+    margin-right: 10px;
+}
+.btn-upload button:hover{
+    background-color: #ffda47;
+}
+.btn-login button:hover {
+    background-color: #56ccf4;
+}
+
+.input-search {
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    background-color: #111111;
+    color: white;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.input-search:hover {
+    background-color: #1c1c1c;
+}
+
+.btn-search {
+    padding: 5px 10px;
+    border-radius: 50px;
+    background-color: #09b7fc;
+    font-size: 20px;
+    color: white;
+}
+
+.btn-search:hover {
+    background-color: #52ceff;
+}
+.upload{
+    padding: 20px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form_upload li{
+    list-style: none;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+.form_upload li{
+    padding: 10px 50px;
+}
+.form_upload li div p{
+
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-size: 25px;
+}
+.name input{
+     width: 400px;
+     height: 20px;
+     padding: 10px 30px;
+     color: black;
+     background-color:#e0e0e0 ;
+     border: none;
+     border-radius: 20px;
+     font-family: 'Merriweather', serif;
+     font-weight: 500;
+     font-size: 20px;
+ }
+.author input{
+    width: 400px;
+    height: 20px;
+    padding: 10px 30px;
+    color: black;
+    background-color:#e0e0e0 ;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.cover_book input[type="file"]{
+  display: none;
+}
+.cover_book label{
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: black;
+    height: 60px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #ffcc00;
+    border-radius: 15px;
+    transition: all 0.3s ease 0s;
+}
+.cover_book label:hover{
+    background-color:#ffe270 ;
+}
+.description textarea{
+    width: 400px;
+    height: 300px;
+    padding: 10px 30px;
+    color: black;
+    background-color:#e0e0e0 ;
+    border: none;
+    border-radius: 20px;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+.submit button{
+    margin-top: 10px;
+    padding: 10px 20px;
+    color: black;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: 'Merriweather', serif;
+    font-weight: 500;
+    font-size: 20px;
+    transition: all 0.3s ease 0s;
+
+
+}
